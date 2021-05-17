@@ -7,4 +7,3 @@ document.getElementById("year").textContent = new Date().toLocaleDateString(
   year
 );
 document.getElementById("date").textContent = date;
-console.log(date);
