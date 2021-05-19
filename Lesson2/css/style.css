@@ -5,6 +5,35 @@ body {
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 }
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(207, 252, 224);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #005239;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #6dffd3;
+}
+
+.active {
+	color: gray;
+	background-color: #6dffd3;
+}
 /* phone or baseline views **************************/
 main {
 	max-width: 767px;
@@ -32,6 +61,14 @@ main section {
 main section:nth-child(2) {
 	display: none;
 	margin: 0.5rem;
+}
+
+.link {
+	color: #005239;
+}
+
+.link:hover {
+	color: #9300b8;
 }
 
 .colimage {
